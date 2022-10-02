@@ -12,7 +12,7 @@ const Prod = () => {
         
         <div className="basis-1/2  "  >
           <img className="object-cover  w-full 
-         rounded-l-lg sm:rounded-t-lg md:min-w-[300px] sm:h-[250px] md:max-h-[600px]  md:min-h-full " src={perfume} alt="image" />
+         rounded-l-lg sm:rounded-t-lg md:min-w-[300px] sm:h-[250px] md:max-h-[600px]  md:min-h-full " src={perfume} alt="perfume image" />
         </div>
 
         <div className=" bg-pink-200 basis-1/2 font-Montserrat  p-9 rounded-r-lg md:max-h-[600px] sm:max-h-[420px]  md:mr-[60px] "  >
