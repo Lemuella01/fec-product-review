@@ -6,8 +6,8 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 const Prod = () => {
   return (
     <div className="  bg-pink-100 min-h-screen md:pt-[80px] sm:pt-10">
-      <div className="flex flex-col lg:flex-row md:w-4/5 w-1/2 md:flex-row mx-auto sm:w-5/6 sm:pb-5  ">
-        <div className="basis-1/2  ">
+      <div className="flex flex-col  md:w-4/5 lg:w-1/2 md:flex-row mx-auto w-5/6 sm:pb-5  ">
+        <div className="w-full  ">
           <img
             className="object-cover  w-full 
          rounded-l-lg sm:rounded-t-lg  sm:h-[60%]  md:max-h-[600px]  md:min-h-full "
@@ -16,7 +16,7 @@ const Prod = () => {
           />
         </div>
 
-        <div className=" bg-pink-200 basis-1/2 font-Montserrat  p-9 rounded-r-lg md:max-h-[600px] sm:max-h-[420px]  md:mr-[60px] ">
+        <div className=" bg-pink-200 w-full font-Montserrat  p-9 rounded-r-lg md:max-h-[600px] sm:max-h-[420px] ">
           <h5 className="tracking-widest text-base text-gray-500 font-semibold  ">
             {" "}
             PERFUME
